@@ -2613,6 +2613,60 @@ input, select, textarea {
 				width: 100%;
 			}
 
+/*Circular Image*/
+
+.circular_image {
+	border-radius: 50%;
+	border: 0;
+	display: inline-block;
+	position: relative;
+}
+
+	.circular_image img {
+		border-radius: 50%;
+		display: block;
+	}
+
+	.circular_image.left, .circular_image.right {
+		max-width: 100%;
+	}
+
+		.circular_image.left img, .circular_image.right img {
+			width: 100%;
+		}
+
+	.circular_image.left {
+		float: left;
+		padding: 0 1.5em 1em 0;
+		top: 0.25em;
+	}
+
+	.circular_image.right {
+		float: right;
+		padding: 0 0 1em 1.5em;
+		top: 0.25em;
+	}
+
+	.circular_image.fit {
+		display: block;
+		margin: 0 0 2em 0;
+		width: 100%;
+	}
+
+		.circular_image.fit img {
+			width: 100%;
+		}
+
+	.circular_image.main {
+		display: block;
+		margin: 0 0 3em 0;
+		width: 100%;
+	}
+
+		.circular_image.main img {
+			width: 100%;
+		}
+
 /* List */
 
 	ol {
