@@ -197,10 +197,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #373737, #b8f5ff);
-				background-image: -webkit-linear-gradient(to right, #373737, #b8f5ff);
-				background-image: -ms-linear-gradient(to right, #373737, #b8f5ff);
-				background-image: linear-gradient(to right, #373737, #b8f5ff);
+				background-image: -moz-linear-gradient(to right, #373737, #64c2ec);
+				background-image: -webkit-linear-gradient(to right, #373737, #64c2ec);
+				background-image: -ms-linear-gradient(to right, #373737, #64c2ec);
+				background-image: linear-gradient(to right, #373737, #64c2ec);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -2552,11 +2552,11 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b8f5ff;
+					color: #64c2ec;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #64c2ec;
+					color: #3FA0EF;
 				}
 
 /* Image */
@@ -3310,11 +3310,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b8f5ff;
+			background-color: #64c2ec;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #64c2ec;
+			background-color: #3FA0EF;
 		}
 
 		.wrapper.fullscreen {
@@ -3819,10 +3819,10 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #373737, #b8f5ff);
-				background-image: -webkit-linear-gradient(to right, #373737, #b8f5ff);
-				background-image: -ms-linear-gradient(to right, #373737, #b8f5ff);
-				background-image: linear-gradient(to right, #373737, #b8f5ff);
+				background-image: -moz-linear-gradient(to right, #373737, #64c2ec);
+				background-image: -webkit-linear-gradient(to right, #373737, #64c2ec);
+				background-image: -ms-linear-gradient(to right, #373737, #64c2ec);
+				background-image: linear-gradient(to right, #373737, #64c2ec);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3911,7 +3911,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b8f5ff;
+							background-color: #64c2ec;
 						}
 
 		}
