@@ -1,0 +1,8 @@
+Darker Grey: 	#373737	=> #373737
+Dark Grey:	#4b4b4b => #4b4b4b
+Grey:		#5a5a5a => #5a5a5a
+Grey-Blu	#3c6ea0 => #277ca5
+Dark Grey-Blu:	#325087 => #113547
+Cyan:		#28b4be => #b8f5ff
+Dark Cyan:	#3c96a5 => #64c2ec
+
