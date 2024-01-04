@@ -117,9 +117,35 @@ After adding this to the html I had my introduction section of my website lookin
 
 Now that the picture has been added and the colors have been changed, I find that the Github page is looking mostly how I want it to look. The last thing to do is to go and change the written portions of the website in the html code for it. It's easy enough to distinguish from the rest of the html. I would recommend checking how you're website's coming along by opening the html file with your browser of choice and refreshing the page. Also worth mentioning is that you can switch out the pictures that the template provides for your own, just make sure that you write the file name down properly in the html, like is shown in the picture above (this includes the file extension).
 
+### Connecting To The Outside
+Another thing you may want to do for your website is to connecting it to your social media or to other websites. A nice thing about using a template like this is that most of the structure required to enable this is already built in. For example the contact me section at the bottom of the home page for my website (found below)
+
+![Screenshot 2024-01-04 120514](https://github.com/gdmbenedict/gdmbenedict.github.io/assets/97464794/6951175b-89ab-4af6-80f9-9aebd24c4d8a)
+
+As you can see in the picture above I've circled some places that require some form of connection to outside the website. To do this we need to use the HTML **href** attribute. Boiled down, this attribute sends the user to the address if an interaction occurs. We'll start by looking at the social media icons. Look for a tag describing the "icon" class in your index file. Once you find it you should see a block of text like the once below.
+
+![Screenshot 2024-01-04 121429](https://github.com/gdmbenedict/gdmbenedict.github.io/assets/97464794/d7d5c4cf-e467-4d3c-ad1d-b33929255b0a)
+
+In the above image I've highlighted the hashtag symbol. This is where you will need to put the addresses of where you want the icons to lead to. To get the address to put with a specific icon, go to the related website, navigate to your profile page, and then copy the adress from the address bar at the top of your browser. Then return to index file and paste the address onto the hashtag symbol. Once you do this you should have a result that looks like the picture below.
+
+![Screenshot 2024-01-04 121930](https://github.com/gdmbenedict/gdmbenedict.github.io/assets/97464794/5f55e739-c938-4ed7-b007-d9c1d20437ff)
+
+Once the icons are linked, pressing on them should send the user to the specified address, allowing for quick and easy navigations to your other platforms. If the icons you want aren't listed in the section you can check to see if the font you are using supports different icons. In the case of my website it uses "Font Awesome", a list of Font Awesome's icons can be found [here](https://fontawesome.com/icons) if you want to check if the icon you want is supported.
+
+Next we will make the link to email on the page to the user's mail client on their computer. To do this we need to modify the mail portion of the contact section. Look for the Email header in the index file and find the code that look like the picture below.
+
+![Screenshot 2024-01-04 122411](https://github.com/gdmbenedict/gdmbenedict.github.io/assets/97464794/49d4ad38-0238-4bb8-b3af-40e9949dead7)
+
+The modifications we have to do for this are a little different than what we had to do for icons, but still very easy. Insteal of adding a link to the **href** attribute we need to the "mailto:" modifier and the address we want emails sent to. So you would write something similar to the code in the picture below, but replacing the email with your own.
+
+![Screenshot 2024-01-04 122716](https://github.com/gdmbenedict/gdmbenedict.github.io/assets/97464794/9b322a6d-1eea-4a34-b76a-3c6565bcedac)
+
+The last thing to link to systems outside of the website is the contact form. Doing this is a little more compleicated since this requires functions not provided by a client side language like HTML. Rather you would need to use PHP or another server side language to have the form work properly. Unfortunetly, Github pages do not support PHP, so this topic won't be covered in this tutorial; Though, if you want to learn how to do this I would recommend [this](https://mailtrap.io/blog/html-form-send-email/) guide on setting up a contact form.
+
 With all that in mind you should have all the tools you need to build your own website.
 
 ## Usefeul Links
 [github page setup](https://pages.github.com)<br>
 [style template and guides](https://www.geeksforgeeks.org/how-to-build-portfolio-website-and-host-it-on-github-pages/)<br>
 [free templates website](https://html5up.net/)<br>
+[Font Awesome icons](https://fontawesome.com/icons)<br>
